@@ -26,4 +26,6 @@ This is JSX (Javascript XML) markup:
 
 To make this code works, we need to pass it through Babel - a modern Javascript compiler and convert it to syntax that browsers understand.
 
-##
+## Examples
+
+1. [Counter](../master/Counter): Create a counter that can be delete, reset and modify.
