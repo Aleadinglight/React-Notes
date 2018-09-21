@@ -40,8 +40,8 @@ class App extends Component {
           <Counters
             counters={this.state.counters}
             onReset={this.handleReset}
-            onDelete={this.onDelete}
-            onIncrement={this.onIncrement}
+            onDelete={this.handleDelete}
+            onIncrement={this.handleIncrement}
           />
         </main>
       </React.Fragment>
