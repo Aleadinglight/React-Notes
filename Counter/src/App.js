@@ -12,6 +12,11 @@ class App extends Component {
       { id: 4, value: 0 }
     ]
   };
+
+  constructor(props) {
+    super(props);
+    console.log("App - Constructor");
+  }
   handleDelete = counterId => {
     const counters = this.state.counters.filter(c => c.id !== counterId);
     this.setState({ counters });
