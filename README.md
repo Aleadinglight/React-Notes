@@ -31,3 +31,5 @@ To make this code works, we need to pass it through Babel - a modern Javascript 
 ## Examples
 
 1. [Counter](../master/Counter): Create a counter that can be delete, reset and modify.
+
+2. [React with Redux](../)
